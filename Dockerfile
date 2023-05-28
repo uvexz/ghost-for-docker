@@ -7,7 +7,7 @@ RUN git clone https://github.com/uvexz/ghost-theme-goods.git /var/lib/ghost/cont
 
 RUN mkdir -p /var/lib/ghost/content/adapters/storage/
 
-COPY ghost-cloudflare-r2 /var/lib/ghost/content/adapters/storage/ghost-cloudflare-r2
+COPY ghost-cloudflare-r2 /var/lib/ghost/content/adapters/storage/
 
 RUN chown -R node:node /var/lib/ghost/content/adapters/
 
