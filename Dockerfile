@@ -1,6 +1,6 @@
 FROM node:20-alpine as build
 RUN apk add git
-RUN git clone https://github.com/uvexz/ghost-theme-goods goods
+RUN git clone https://github.com/uvexz/ghost-theme-goods-for-yjk goods
 RUN git clone https://github.com/laosb/ghos3.git s3
 RUN cd s3 && npm install && npm run build
 
